@@ -1,9 +1,9 @@
-use architecture;
-use architecture::Endian;
-use executor::*;
-use il::*;
+use crate::architecture;
+use crate::architecture::Endian;
+use crate::executor::*;
+use crate::il::*;
+use crate::translator::mips::*;
 use memory;
-use translator::mips::*;
 use RC;
 
 #[macro_use]

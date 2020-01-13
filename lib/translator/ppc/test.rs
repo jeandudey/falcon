@@ -1,9 +1,9 @@
-use architecture;
-use architecture::Endian;
-use executor::*;
-use il::*;
-use memory;
-use translator::ppc::*;
+use crate::architecture;
+use crate::architecture::Endian;
+use crate::executor::*;
+use crate::il::*;
+use crate::memory;
+use crate::translator::ppc::*;
 use RC;
 
 fn init_driver_block<'d>(
