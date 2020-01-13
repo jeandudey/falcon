@@ -470,12 +470,12 @@ where
 
 #[cfg(test)]
 mod memory_tests {
-    use architecture::Endian;
-    use il;
-    use memory;
-    use memory::paged::Memory;
-    use memory::MemoryPermissions;
-    use RC;
+    use crate::architecture::Endian;
+    use crate::il;
+    use crate::memory;
+    use crate::memory::paged::Memory;
+    use crate::memory::MemoryPermissions;
+    use crate::RC;
 
     #[test]
     fn big_endian() {

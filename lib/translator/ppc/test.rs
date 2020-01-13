@@ -4,7 +4,7 @@ use crate::executor::*;
 use crate::il::*;
 use crate::memory;
 use crate::translator::ppc::*;
-use RC;
+use crate::RC;
 
 fn init_driver_block<'d>(
     instruction_bytes: &[u8],

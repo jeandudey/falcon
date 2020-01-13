@@ -3,8 +3,8 @@ use crate::architecture::Endian;
 use crate::executor::*;
 use crate::il::*;
 use crate::translator::mips::*;
-use memory;
-use RC;
+use crate::memory;
+use crate::RC;
 
 #[macro_use]
 macro_rules! backing {
